@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+     <!-- Site Metas -->
+    <title>Любимцы ветклиника</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
+	<!-- LOADER -->
+    <div id="preloader">
+		<div class="preloader pulse">
+			<i class="fa fa-heartbeat" aria-hidden="true"></i>
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+
+	<!-- Start header -->
+{#	<header class="top-header">#}
+{#		<nav class="navbar header-nav navbar-expand-lg">#}
+{#            <div class="container">#}
+{#            	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">#}
+{#					<span></span>#}
+{#					<span></span>#}
+{#					<span></span>#}
+{#				</button>#}
+{#                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd" >#}
+{#                    <ul class="navbar-nav">#}
+{#                        <li><a class="trend-decors active" href="#home">Трендовые декоры</a></li>#}
+{#                        <li><a class="nav-link" href="#fillings">Начинки</a></li>#}
+{#                        <li><a class="nav-link" href="#catalog">Каталог</a></li>#}
+{#						<li><a class="nav-link" href="#contacts">Контакты</a></li>#}
+{#                    </ul>#}
+{#                </div>#}
+{#            </div>#}
+{#        </nav>#}
+{#	</header>#}
+	<!-- End header -->
+
+    <main class='fabula-page-container'>
+
+    <div style="order:10;" class='fabula-hide--desktop '>
+
+
+        <section class='fabula-container fabula-title-block-min-container'>
+
+
+            <div class="fabula-title-block-min">
+
+
+                <div class="fabula-title-block-min-content">
+                    <h1 class="fabula-h3 fabula-title-block-min-title">Круглосуточная ветеринарная клиника</h1>
+
+
+
+                    <div class="fabula-title-block-min-info">
+
+                        <div class="fabula-title-block-min-address">
+                            <a href="/contacts/">м.&nbsp;Алексеевская, Зубарев пер.&nbsp;д.&nbsp;7</a>
+                        </div>
+
+                        <div class="fabula-title-block-min-phone">
+                            <span>Телефон:</span>
+                            <a href="tel:++74952152964" class="goal-phone mgo-number">
+                                +7 495 215-29-64          </a>
+                        </div>
+
+                        <img src="images/main1.jpg" alt="" loading='lazy' decoding='async' class="fabula-title-block-min-icon">
+
+                    </div>
+                </div>
+
+                <div class="fabula-title-block-min-logo"
+                     style="background-image: url(images/main1.jpg);"
+                >
+                    <img src="images/main1.jpg" alt="" loading='lazy' decoding='async' class="fabula-title-block-min-image">
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+{#    <!-- Start Banner -->#}
+{#	<div class="ulockd-home-slider">#}
+{#		<div class="container-fluid">#}
+{#			<div class="row">#}
+{#				<div class="pogoSlider" id="js-main-slider">#}
+{#					<div class="pogoSlider-slide" data-transition="slideOverLeft" data-duration="1500" style="background-image:url(images/main1.jpg);">#}
+{#						<div class="lbox-caption">#}
+{#							<div class="lbox-details">#}
+{#								<h1>Ламбер побольше</h1>#}
+{#								<h2>Ламбер побольше</h2>#}
+{#							</div>#}
+{#						</div>#}
+{#					</div>#}
+{#					<div class="pogoSlider-slide" data-transition="slideOverLeft" data-duration="1500" style="background-image:url(images/main2.jpg);">#}
+{#						<div class="lbox-caption">#}
+{#							<div class="lbox-details">#}
+{#                                <h1>Ламбер побольше</h1>#}
+{#                                <h2>Ламбер побольше</h2>#}
+{#							</div>#}
+{#						</div>#}
+{#					</div>#}
+{#					<div class="pogoSlider-slide" data-transition="slideOverLeft" data-duration="2000" style="background-image:url(images/main3.jpg);">#}
+{#						<div class="lbox-caption">#}
+{#							<div class="lbox-details">#}
+{#                                <h1>Ламбер побольше</h1>#}
+{#                                <h2>Ламбер побольше</h2>#}
+{#							</div>#}
+{#						</div>#}
+{##}
+{#					</div>#}
+{#				</div><!-- .pogoSlider -->#}
+{#			</div>#}
+{#		</div>#}
+{#	</div>#}
+{#	<!-- End Banner -->#}
+{##}
+{#    <div id="fillings" class="contact-box">#}
+{#        <div class="container">#}
+{#            <div class="row">#}
+{#                <div class="col-lg-12">#}
+{#                    <div class="title-box">#}
+{#                        <h2><span>Начинки</span></h2>#}
+{#                        <h1>MEDOVIK</h1>#}
+{#                        <link rel="icon" url="images/main1.jpg">#}
+{#                        <h1>CARROT CAKE</h1>#}
+{#                        <div class="event-img">#}
+{#                            <img class="img-fluid" src="images/main1.jpg" alt="" />#}
+{#                        </div>#}
+{#                        <h1>SNICKERS</h1>#}
+{#                        <h1>RED VELVET</h1>#}
+{#                        <h1>CHOCOBERRY</h1>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{##}
+{#    <div id="catalog" class="contact-box">#}
+{#        <div class="container">#}
+{#            <div class="row">#}
+{#                <div class="col-lg-12">#}
+{#                    <div class="title-box">#}
+{#                        <h2><span>Каталог</span></h2>#}
+{#                        <h1>Торт побольше</h1>#}
+{#                        <link rel="icon" url="images/main1.jpg">#}
+{#                        <h1>Торт поменьше</h1>#}
+{#                        <h1>Капкейк такой</h1>#}
+{#                        <h1>Капкейк сякой</h1>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{##}
+{#	<!-- Start Events -->#}
+{#	<div id="contacts" class="events-box">#}
+{#		<div class="container">#}
+{#			<div class="row">#}
+{#				<div class="col-lg-12">#}
+{#					<div class="title-box">#}
+{#						<h2><span>Контакты</span></h2>#}
+{#						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p> -->#}
+{#					</div>#}
+{#				</div>#}
+{#			</div>#}
+{#			<div align="center">#}
+{#				<div class="col-lg-4 col-md-6 col-sm-12">#}
+{#					<div class="event-inner">#}
+{#						<h3>Москва</h3>#}
+{#						<h3>Родниковая 9а к1</h3>#}
+{#						<h3>2 этаж 113</h3>#}
+{#						<a href="https://yandex.ru/maps/-/CCUwEIGn2B">Посмотреть на карте ></a>#}
+{#					</div>#}
+{#				</div>#}
+{#			</div>#}
+{#		</div>#}
+{#	</div>#}
+{#	<!-- End Events -->#}
+{##}
+	<!-- ALL JS FILES -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.pogo-slider.min.js"></script>
+	<script src="js/slider-index.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

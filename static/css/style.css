@@ -1,0 +1,305 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Шапка */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Левая часть шапки */
+.header-left h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ff6600;
+}
+
+.header-left .slogan {
+    margin: 5px 0 0 0;
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+/* Правая часть шапки */
+.header-right {
+    text-align: right;
+}
+
+.header-right p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+.header-right a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+/* Стиль для ссылки на Яндекс Карты */
+.map-link {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.map-link:hover {
+    background-color: #e65c00;
+    text-decoration: none;
+}
+
+
+/* Баннер */
+.banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Блок "Популярные услуги" */
+.services {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-item {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-info {
+    text-align: left;
+}
+
+.service-info h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+}
+
+.service-info .price {
+    font-size: 1.2em;
+    color: #666;
+    margin: 5px 0 0 0;
+}
+
+.service-icon {
+    font-size: 2em;
+    color: #ff6600;
+}
+
+/* Блок "О клинике" */
+.about-clinic {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about-clinic h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-clinic p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    text-align: left;
+}
+
+/* Блок "Прайс-лист" */
+.price-list {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.price-list h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.price-section {
+    max-width: 800px;
+    margin: 0 auto 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.price-section-header {
+    width: 100%;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.price-section-header i {
+    transition: transform 0.3s ease;
+}
+
+.price-section-content {
+    display: none;
+    padding: 15px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.price-section-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.price-section-content li {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.price-section-content li:last-child {
+    margin-bottom: 0;
+}
+
+/* Блок "Отзывы" */
+.reviews {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.reviews h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.reviews-carousel {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.review-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    text-align: left;
+}
+
+.review-text {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.review-author {
+    font-size: 1em;
+    color: #333;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Стили для точек навигации */
+.slick-dots {
+    bottom: -30px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: #ff6600;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #ff6600;
+}
+
+/* Блок "Ссылки на карты" */
+.map-links {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.map-links .map-link {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.map-links .map-link:hover {
+    color: #ff6600;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-right {
+        text-align: center;
+        margin-top: 10px;
+    }
+}

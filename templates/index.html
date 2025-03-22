@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Любимцы</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Подключение иконок (например, Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Подключение Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+    <!-- Подключение jQuery (требуется для Slick Carousel) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Подключение Slick Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>Любимцы</h1>
+            <p class="slogan">Лечим ваших питомцев</p>
+        </div>
+        <div class="header-right">
+            <p>Телефон: <a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+            <p>Адрес: г. Нижний Новгород ул. Маршала Жукова, д. 7а</p>
+            <p><a href="https://yandex.ru/maps/-/CHFtQCOC" target="_blank" class="map-link">Открыть в Яндекс Картах</a></p>
+        </div>
+    </header>
+
+    <!-- Горизонтальная картинка -->
+    <div class="banner">
+        <img src="images/main-img3.jpeg" alt="Главный баннер" class="banner-image">
+    </div>
+
+    <!-- Блок "Популярные услуги" -->
+    <div class="services">
+        <h2>Популярные услуги</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <div class="service-info">
+                    <h3>Диагностика</h3>
+                    <p class="price">от 1000 ₽</p>
+                </div>
+                <i class="fas fa-stethoscope service-icon"></i>
+            </div>
+            <div class="service-item">
+                <div class="service-info">
+                    <h3>Лечение</h3>
+                    <p class="price">от 5000 ₽</p>
+                </div>
+                <i class="fas fa-medkit service-icon"></i>
+            </div>
+            <div class="service-item">
+                <div class="service-info">
+                    <h3>Вакцинация</h3>
+                    <p class="price">от 1500 ₽</p>
+                </div>
+                <i class="fas fa-syringe service-icon"></i>
+            </div>
+            <div class="service-item">
+                <div class="service-info">
+                    <h3>Стрижка</h3>
+                    <p class="price">от 2000 ₽</p>
+                </div>
+                <i class="fas fa-cut service-icon"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок "О клинике" -->
+    <div class="about-clinic">
+        <h2>О нашей клинике</h2>
+        <p>
+            Наша клиника уже более 10 лет предоставляет качественные ветеринарные услуги для ваших питомцев.
+            Мы заботимся о здоровье и комфорте животных, используя современное оборудование и лучшие методики лечения.
+        </p>
+        <p>
+            Наши специалисты — это высококвалифицированные врачи с многолетним опытом работы.
+            Мы предлагаем широкий спектр услуг: от диагностики и лечения до профилактики и ухода.
+        </p>
+        <p>
+            Мы гордимся тем, что создали уютную атмосферу, где каждый питомец чувствует себя как дома.
+            Приходите к нам, и мы поможем вашему любимцу оставаться здоровым и счастливым!
+        </p>
+    </div>
+
+    <!-- Блок "Прайс-лист" -->
+    <div class="price-list">
+        <h2>Прайс-лист</h2>
+        <div class="price-section">
+            <button class="price-section-header">
+                <span>Диагностика</span>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="price-section-content">
+                <ul>
+                    <li>Общий осмотр — 1000 ₽</li>
+                    <li>Анализ крови — 1500 ₽</li>
+                    <li>УЗИ — 2000 ₽</li>
+                </ul>
+            </div>
+        </div>
+        <div class="price-section">
+            <button class="price-section-header">
+                <span>Лечение</span>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="price-section-content">
+                <ul>
+                    <li>Консультация врача — 1500 ₽</li>
+                    <li>Медикаментозное лечение — от 2000 ₽</li>
+                    <li>Хирургическое вмешательство — от 10000 ₽</li>
+                </ul>
+            </div>
+        </div>
+        <div class="price-section">
+            <button class="price-section-header">
+                <span>Вакцинация</span>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="price-section-content">
+                <ul>
+                    <li>Комплексная вакцинация — 2000 ₽</li>
+                    <li>Вакцинация от бешенства — 1500 ₽</li>
+                    <li>Вакцинация от чумки — 1000 ₽</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подключение JavaScript -->
+    <script>
+        document.querySelectorAll('.price-section-header').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                    icon.classList.remove('fa-chevron-up');
+                    icon.classList.add('fa-chevron-down');
+                } else {
+                    content.style.display = 'block';
+                    icon.classList.remove('fa-chevron-down');
+                    icon.classList.add('fa-chevron-up');
+                }
+            });
+        });
+    </script>
+
+    <!-- Блок "Отзывы" -->
+    <div class="reviews">
+        <h2>Отзывы наших клиентов</h2>
+        <div class="reviews-carousel">
+            <div class="review-item">
+                <p class="review-text">"Очень довольна клиникой! Врачи профессионалы, все чисто и уютно. Спасибо за заботу о моем питомце!"</p>
+                <p class="review-author">— Анна Иванова</p>
+            </div>
+            <div class="review-item">
+                <p class="review-text">"Отличный сервис и внимательное отношение. Все объяснили, провели необходимые процедуры. Рекомендую!"</p>
+                <p class="review-author">— Игорь Петров</p>
+            </div>
+            <div class="review-item">
+                <p class="review-text">"Спасибо за оперативность и качественное лечение. Теперь только к вам!"</p>
+                <p class="review-author">— Мария Сидорова</p>
+            </div>
+            <div class="review-item">
+                <p class="review-text">"Очень понравилось отношение к животным. Все чисто, аккуратно, без лишнего стресса для питомца."</p>
+                <p class="review-author">— Дмитрий Кузнецов</p>
+            </div>
+            <div class="review-item">
+                <p class="review-text">"Лучшая клиника в городе! Всегда помогают, даже в сложных случаях. Спасибо огромное!"</p>
+                <p class="review-author">— Ольга Васильева</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Инициализация карусели -->
+    <script>
+        $(document).ready(function(){
+            $('.reviews-carousel').slick({
+                dots: true, // Точки для навигации
+                infinite: true, // Бесконечная прокрутка
+                speed: 300, // Скорость анимации
+                slidesToShow: 2, // Показывать по 2 отзыва
+                slidesToScroll: 1, // Листать по 1 отзыву
+                autoplay: true, // Автоматическая прокрутка
+                autoplaySpeed: 10000, // Интервал 10 секунд
+                responsive: [
+                    {
+                        breakpoint: 768, // Настройки для мобильных устройств
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+
+    <div class="map-links">
+        <a href="https://go.2gis.com/CrCjf" target="_blank" class="map-link">2ГИС</a>
+        <a href="https://yandex.ru/maps/-/CHFtQCOC" target="_blank" class="map-link">Яндекс.Карты</a>
+        <a href="https://maps.app.goo.gl/VtEb63onXVBJKJec6" target="_blank" class="map-link">Google Maps</a>
+    </div>
+
+</body>
+
+</html>
